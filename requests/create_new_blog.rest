@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI2NTM3ZjBmY2M3ZTI0MzdmYmE4NjUyYzQiLCJpYXQiOjE2OTg0Mjg5NzF9.m53N3a425TxWtut6AV4bN-PZm3fbxFJjkAGndNMjptI
+
+{
+  "author": "Joking Rowling",
+  "title": "Herb Butter and the Quarter-Water Princess",
+  "url": "https://example.com/my-blog-post",
+  "likes": 10
+}

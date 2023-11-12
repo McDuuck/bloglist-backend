@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/653f6bb609e4e1e75ab8d640
+Content-Type: application/json
+
+{   "author":"John Doe",
+    "title":"My Blog Post",
+    "url":"https://example.com/my-blog-post",
+    "likes":"20",
+    "user":"6537f0fcc7e2437fba8652c4",
+    "id":"653f6bb609e4e1e75ab8d640"
+}
